@@ -6,7 +6,7 @@ import Container from "./components/container";
 function App() {
   const router = createBrowserRouter(
     [
-      { path: "/", element: <Discover /> },
+      { path: "/", element: <TvShows /> },
       { path: "/tvshows", element: <TvShows /> },
       { path: "/discover", element: <Discover /> },
     ],
