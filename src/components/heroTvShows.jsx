@@ -32,6 +32,7 @@ export default function HeroTVShowSection() {
               backgroundRepeat: "no-repeat",
               height: "500px",
               position: "relative",
+              overflow: "hidden",
             }}
           >
             <div className="absolute w-full h-full bg-black/20">
@@ -69,6 +70,7 @@ export default function HeroTVShowSection() {
               backgroundRepeat: "no-repeat",
               height: "500px",
               position: "relative",
+              overflow: "hidden",
             }}
           >
             <div className="absolute w-full h-full bg-black/20">

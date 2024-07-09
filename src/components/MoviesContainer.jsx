@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import MovieCard from "./MovieCard";
 
@@ -14,7 +13,7 @@ function MoviesContainer({ title }) {
           <Icon icon="iconamoon:arrow-left-2-thin" className="rotate-180" />
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid phone:grid-cols-1 tablet:grid-cols-2 grid-cols-4 gap-4 phone:gap-8 ">
         <MovieCard />
         <MovieCard />
         <MovieCard />
