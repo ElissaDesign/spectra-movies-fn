@@ -1,5 +1,7 @@
 import { forwardRef } from "react";
 
+// reusable button receiving additional stye and the children
+
 const Button = forwardRef((props, ref) => {
   const { children, className } = props;
   return (

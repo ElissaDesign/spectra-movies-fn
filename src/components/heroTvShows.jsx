@@ -13,7 +13,7 @@ import Button from "./Button";
 export default function HeroTVShowSection() {
   return (
     <>
-      <div className="mt-6 mb-4 mr-6 overflow-hidden">
+      <div className="mt-6 mb-4 mr-6 phone:mr-0 overflow-hidden">
         <Swiper
           cssMode={true}
           navigation={true}
@@ -21,7 +21,7 @@ export default function HeroTVShowSection() {
           mousewheel={true}
           keyboard={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          className="rounded-xl overflow-hidden"
+          className="w-full rounded-xl overflow-hidden"
         >
           <SwiperSlide
             style={{
@@ -36,7 +36,7 @@ export default function HeroTVShowSection() {
             }}
           >
             <div className="absolute w-full h-full bg-black/20">
-              <div className="absolute text-brand-white text-start ml-20 mt-40 w-full h-full  ">
+              <div className="absolute text-brand-white text-start phone:ml-12 ml-20 mt-40 w-full h-full  ">
                 <h1 className="text-3xl ">Killing Eve</h1>
                 <p className="text-base my-4">
                   After a series of events. the lives of a <br />
